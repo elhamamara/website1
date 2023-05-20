@@ -1,33 +1,33 @@
 export let plansList = [
 	{
 		//####################################### start updating as needed #######################################
-		name: "plan 1",
-		monthlySubPrice: 0,
-		yearlySubPrice: 0,
-		numericFeature1: 0,
-		numericFeature2: 0,
-		binaryFeature1: false,
-		binaryFeature2: false,
+		name: "NORMAL",
+		monthlySubPrice: 10,
+		yearlySubPrice:80,
+		CHARACTERS: 6,
+		WEQPONS: 4,
+		ADS: false,
+		ONLINE: false,
 		customerCare: false
 	},
 	{
-		name: "plan 2",
-		monthlySubPrice: 0,
-		yearlySubPrice: 0,
-		numericFeature1: 0,
-		numericFeature2: 0,
-		binaryFeature1: true,
-		binaryFeature2: false,
+		name: "PRO",
+		monthlySubPrice: 20,
+		yearlySubPrice:180,
+		CHARACTERS: 10,
+		WEQPONS: 7,
+		ADS: true,
+		ONLINE: false,
 		customerCare: "By Email"
 	},
 	{
-		name: "plan 3",
-		monthlySubPrice: 0,
-		yearlySubPrice: 0,
-		numericFeature1: 0,
-		numericFeature2: 0,
-		binaryFeature1: true,
-		binaryFeature2: true,
+		name: "PREMIUM",
+		monthlySubPrice: 30,
+		yearlySubPrice: 280,
+		CHARACTERS: 14,
+		WEQPONS: 10,
+		ADS: true,
+		ONLINE: true,
 		customerCare: "24/7 Line"
 		//#######################################      stop  updating      #######################################
 		                                        

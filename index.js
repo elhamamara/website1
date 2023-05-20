@@ -49,23 +49,23 @@ for (let i = 0; i < plansList.length; i++) {
     //####################################### start updating as needed #######################################
 
 
-    let numericFeature1 = document.createElement("th");
-    numericFeature1.textContent = plansList[i].numericFeature1;
-    rows[3].appendChild(numericFeature1);
+    let CHARACTERS = document.createElement("th");
+    CHARACTERS.textContent = plansList[i].CHARACTERS;
+    rows[3].appendChild(CHARACTERS);
     
-    let numericFeature2 = document.createElement("th");
-    numericFeature2.textContent = plansList[i].numericFeature2;
-    rows[4].appendChild(numericFeature2);
+    let WEQPONS = document.createElement("th");
+    WEQPONS.textContent = plansList[i].WEQPONS;
+    rows[4].appendChild(WEQPONS);
     
-    let binaryFeature1 = document.createElement("th");
-    binaryFeature1.textContent = plansList[i].binaryFeature1;
-    binaryFeature1.textContent= toEmoji(binaryFeature1.textContent);
-    rows[5].appendChild(binaryFeature1);
+    let ADS = document.createElement("th");
+    ADS.textContent = plansList[i].ADS;
+    ADS.textContent= toEmoji(ADS.textContent);
+    rows[5].appendChild(ADS);
     
-    let binaryFeature2 = document.createElement("th");
-    binaryFeature2.textContent = plansList[i].binaryFeature2;
-    binaryFeature2.textContent =toEmoji(binaryFeature2.textContent);
-    rows[6].appendChild(binaryFeature2);
+    let ONLINE = document.createElement("th");
+    ONLINE.textContent = plansList[i].ONLINE;
+    ONLINE.textContent =toEmoji(ONLINE.textContent);
+    rows[6].appendChild(ONLINE);
 
     let customerCare = document.createElement("th");
     customerCare.textContent = plansList[i].customerCare;
